@@ -1,0 +1,23 @@
+# Investigation Findings
+
+## Event ID 4625 — Failed Logon
+- Meaning: Failed logon attempt
+- Logon Type: 2 (Interactive)
+- Status: 0xC000006D
+- Substatus: 0xC000006A (Incorrect password)
+- Caller Process: msedgewebview2.exe
+- Source IP: Not available
+- Assessment: Insufficient evidence to classify as malicious.
+
+## Event ID 4624 — Successful Logon
+- Meaning: Successful logon
+- Account: SYSTEM
+- Logon Type: 5 (Service)
+- Process: services.exe
+- Source IP: Not available
+- Assessment: Consistent with Windows service activity.
+
+## Overall Conclusion
+The two selected records show different authentication activities.
+There is insufficient evidence to establish a relationship between
+them or to conclude that either record represents malicious activity.
